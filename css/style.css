@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  list-style-type: none;
+}
+.menu_link {
+  padding-top: 32px;
+  padding-bottom: 33px;
+
+  font-family: "Nunito Sans";
+
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #1f1f1f;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.paragraph {
+  width: 633px;
+  left: 533px;
+  top: 647px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+  color: #1f1f1f;
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+}
+
+.section {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1280px;
+}
+.zitatepicture {
+  background-image: url("zitatepicture.png");
+}

@@ -1,0 +1,90 @@
+.hero {
+  display: flex;
+  gap: 130px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 52px;
+
+  width: 506px;
+}
+.description {
+  width: 519px;
+  height: 108px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #1f1f1f;
+
+  flex: none;
+  flex-grow: 0;
+}
+.title {
+  /* FloverLover: delivery of flowers that brighten your day */
+
+  width: 519px;
+  height: 227px;
+
+  /* Accent/Accent */
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  /* or 72px */
+
+  color: #fc640c;
+
+  /* Inside auto layout */
+  flex: none;
+
+  flex-grow: 0;
+}
+.buket {
+  /* Image */
+
+  width: 628px;
+  height: 700px;
+  border-radius: 32px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+
+  background: #fc640c;
+  border-radius: 8px;
+
+  /* i */
+  text-decoration: none;
+  /* Bold/Button */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  /* White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

@@ -1,0 +1,21 @@
+.li1 {
+  margin-left: 109px;
+}
+.li2 {
+  margin-left: 197px;
+}
+.li3 {
+  margin-left: 267px;
+}
+.li {
+  /* Frame 47452 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row; /* column */
+  align-items: center;
+  padding: 0px;
+  gap: 128px;
+  margin-top: 20px;
+  margin-left: none;
+}
