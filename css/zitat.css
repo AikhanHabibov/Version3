@@ -1,0 +1,57 @@
+.zitat {
+  /* Quote */
+
+  width: 1440px;
+  height: 348px;
+
+  /* White */
+  background: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.textsavtorom {
+  /* “Flowers always make people better, happier, and more helpful; they are sunshine, food and medicine for the soul.” */
+  text-align: center;
+  width: 1062px;
+  height: 96px;
+  left: calc(50% - 1062px / 2);
+  top: 88px;
+  margin-left: 189px;
+  padding-top: 88px;
+
+  /* Accent/Quote */
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  /* or 48px */
+  text-align: center;
+
+  /* Black */
+  color: #1f1f1f;
+}
+
+.autor {
+  /* Luther Burbank */
+
+  margin-left: 622px;
+
+  width: 195px;
+  height: 28px;
+  left: calc(50% - 195px / 2 - 0.5px);
+  top: 232px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  /* identical to box height, or 28px */
+
+  /* Black */
+  color: #1f1f1f;
+}
